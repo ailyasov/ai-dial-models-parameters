@@ -8,9 +8,10 @@ from task.app.main import run
 #  User massage: Explain the key components of a Large Language Model architecture
 
 run(
-    deployment_name='gpt-4o',
-    print_only_content=True,
-    # TODO:
+    deployment_name="gpt-4o",
+    print_only_content=False,
+    stop=["**Embedding Layer**", "**Transformer Blocks**", "**Training**"],
+    custom_fields={"configuration": {"thinking": {"depth": 2, "breadth": 2}}},  # TODO:
     #  1. Use `stop` parameter with value "\n\n"
     #  2. Use `stop` parameter with values ["**Embedding Layer**", "**Transformer Blocks**", "**Training**"]
     #  3. Optional: Set `print_only_content` as False to see the full JSON and what is the `finish_reason`

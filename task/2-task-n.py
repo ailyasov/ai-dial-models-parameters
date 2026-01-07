@@ -11,6 +11,8 @@ from task.app.main import run
 # - gemini-2.5-pro
 
 run(
+    deployment_name="claude-sonnet-4@20250514",
+    n=5,
     # TODO:
     #  1. Provide `deployment_name` with model from the list above👆
     #  2. Use `n` parameter with value in range from 1 to 5!

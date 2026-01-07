@@ -33,21 +33,21 @@ By completing these tasks, you will learn:
    task/
    ├── models/
    │   ├── conversation.py          ✅ Complete
-   │   ├── message.py               ✅ Complete  
-   │   └── role.py                  ✅ Complete   
+   │   ├── message.py               ✅ Complete
+   │   └── role.py                  ✅ Complete
    ├── app/
    │   ├── main.py                  ✅ Complete
    │   └── client.py                ✅ Complete
-   ├── 1-task-models.py             🚧 TODO
-   ├── 2-task-n.py                  🚧 TODO
-   ├── 3-task-temperature.py        🚧 TODO
-   ├── 4-task-seed.py               🚧 TODO
-   ├── 5-task-max_tokens.py         🚧 TODO
-   ├── 6-task-frequency_penalty.py  🚧 TODO
-   ├── 7-task-presence_penalty.py   🚧 TODO
-   └── 8-task-stop.py               🚧 TODO
+   ├── 1-task-models.py             ✅ Complete
+   ├── 2-task-n.py                  ✅ Complete
+   ├── 3-task-temperature.py        ✅ Complete
+   ├── 4-task-seed.py               ✅ Complete
+   ├── 5-task-max_tokens.py         ✅ Complete
+   ├── 6-task-frequency_penalty.py  ✅ Complete
+   ├── 7-task-presence_penalty.py   ✅ Complete
+   └── 8-task-stop.py               ✅ Complete
    ```
-   
+
 ## Available models:
 - gpt-4o
 - gpt-4.1-nano-2025-04-14
@@ -63,20 +63,20 @@ By completing these tasks, you will learn:
 ## 📝 Your Tasks
 
 Implement all tasks from these files:
-- 1-task-models.py 
-- 2-task-n.py 
-- 3-task-temperature.py 
-- 4-task-seed.py     
-- 5-task-max_tokens.py   
-- 6-task-frequency_penalty.py 
+- 1-task-models.py
+- 2-task-n.py
+- 3-task-temperature.py
+- 4-task-seed.py
+- 5-task-max_tokens.py
+- 6-task-frequency_penalty.py
 - 7-task-presence_penalty.py
-- 8-task-stop.py    
+- 8-task-stop.py
 
 ## 💪 Additional task:
 Practice with other parameters from OpenAI and Anthropic. For instance OpenAI have `reasoning_effort` and Anthropic `thinking`, and there are many others like citations, etc...
 
-Pay attention that we are using DIAL Unified protol and all parameters that are not present in here https://dialx.ai/dial_api#operation/sendChatCompletionRequest 
-must be provided as `{"custom_fields": {"configuration": {CUSTOM_PARAMETERS} }}`. More about `custom_fields` read here https://dialx.ai/dial_api#operation/sendChatCompletionRequest 
+Pay attention that we are using DIAL Unified protol and all parameters that are not present in here https://dialx.ai/dial_api#operation/sendChatCompletionRequest
+must be provided as `{"custom_fields": {"configuration": {CUSTOM_PARAMETERS} }}`. More about `custom_fields` read here https://dialx.ai/dial_api#operation/sendChatCompletionRequest
 it is the last parameter described in documentation!
 
 ---
